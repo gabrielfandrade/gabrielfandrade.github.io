@@ -1,27 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio de Gabriel Faustino de Andrade</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio de Gabriel Faustino de Andrade</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <style>
+    body{
+      background-color: #a0b2e2;
+    }
+    .descricao {
+      font-family: Poppins;
+    }
+    .nacionalidade {
+      font-style: italic;
+    }
+    .linguagem{
+      font-size: 20px;
+    }
+    .framework{
+      font-size: 22px;
+    }
+    .soft-skill{
+      font-size: 21px;
+    }
+  </style>
 </head>
+
 <body>
-    <a href="#habilidades">Habilidades</a> <br>
-    <a href="#link">Links Externos</a> <br>
-    <h1>Gabriel Faustino de Andrade</h1>
-    <img id="foto" src="gabrielf.jpeg" alt="Gabriel Faustino de Andrade" width="300px">
-    <p>24 anos <br> <strong>Estudante de Desenvolvimento WEB</strong> <br> Brasileiro <br> São Paulo - SP </p>
-    <a href="https://www.linkedin.com/in/gabriel-faustino-657bb313b/">Linkedin</a>
-    <a href="https://github.com/gabrielfandrade">Github</a>
-    <h3 id="habilidades">Habilidades principais:</h3>
-    <ul>
-        <li><strong>Comprometimento</strong></li>
-        <li><strong>Java</strong></li>
-        <li>Lua</li>
-        <li>Javascript</li>
-    </ul>
-    <a href="#foto">Minha Foto</a> <br>
-    <a id="link" href="https://thecodetherapy.com/" target="_blank">The Code Therapy</a>
+  <a href="#habilidades">Habilidades</a> <br>
+  <a href="#link">Links Externos</a> <br>
+  <h1>Gabriel Faustino de Andrade</h1>
+  <img id="foto" src="gabrielf.jpeg" alt="Gabriel Faustino de Andrade" width="300px">
+  <p class="descricao">Olá, sou um <strong>Estudante de Desenvolvimento WEB pela Trybe</strong></p>
+  <p class="descricao nacionalidade">Brasileiro e moro em São Paulo, capital</p>
+  <h3 id="habilidades">Lista de Habilidades:</h3>
+  <ul>
+    <li class="linguagem"><strong>Java</strong></li>
+    <li class="framework"><strong>Spring MVC</strong></li>
+    <li class="linguagem">Lua</li>
+    <li class="linguagem">Javascript</li>
+    <li class="soft-skill">Comprometimento</li>
+  </ul>
+  <a href="#foto" class="button">Minha Foto</a> <br><br><br>
+  <a href="https://www.linkedin.com/in/gabriel-faustino-657bb313b/" class="button">Linkedin</a> <br><br><br>
+  <a href="https://github.com/gabrielfandrade" class="button">Github</a> <br><br><br>
+  <a id="link" href="https://thecodetherapy.com/" target="_blank" class="button">The Code Therapy</a>
 </body>
+
 </html>
