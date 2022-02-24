@@ -1,0 +1,36 @@
+body {
+    background-color: #a0b2e2;
+  }
+
+  .descricao {
+    font-family: Poppins;
+  }
+
+  .nacionalidade {
+    font-style: italic;
+  }
+
+  .linguagem {
+    font-size: 20px;
+  }
+
+  .framework {
+    font-size: 22px;
+  }
+
+  .soft-skill {
+    font-size: 21px;
+  }
+
+  .button {
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  #foto {
+    width: 300px;
+    border-radius: 50%;
+  }
