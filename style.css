@@ -1,9 +1,13 @@
 body {
     background-color: #a0b2e2;
+    padding: 1%;
   }
 
   .descricao {
     font-family: Poppins;
+    position: absolute;
+    top: 40%;
+    right: 10%;
   }
 
   .nacionalidade {
@@ -31,6 +35,41 @@ body {
   }
 
   #foto {
-    width: 300px;
+    float: left;
+    height: 280px;
     border-radius: 50%;
+    padding: 10px;
+    background-color: firebrick;
+  }
+
+  .links-pagina a {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .links-externos {
+    text-align: center;
+    padding: 30px;
+  }
+
+  .links-externos a{
+    display: inline-block;
+    margin: 30px auto;
+  }
+
+  .sobre {
+    text-align: center;
+  }
+
+  .sobre-content {
+    height: 300px;
+    position: relative;
+  }
+
+  ul li:nth-child(odd){
+    background-color: darkblue;
+    color: white;
   }
